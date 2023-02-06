@@ -18,6 +18,7 @@ class MatrixTest {
     void getWidth_NEGATIVE(int width, int height) {
         Assertions.assertThrows(NegativeArraySizeException.class, () -> {
             new Matrix(width, height);
+
         });
     }
 
